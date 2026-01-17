@@ -24,7 +24,8 @@ else if (foodName = "3") {
   foodName = "Salad"
 }
 
-alert(`You picked ${foodName}, Great choice. Now what type of ${foodName} would you like?`)
+alert(`You picked ${foodName}, Great choice. 
+  Now what type of ${foodName} would you like?`)
 // Step 3 - Subtype choice
 // Your code goes here
 //Pizza
@@ -64,7 +65,8 @@ alert(`You chose ${subtypeName}.`)
 
 // Step 4 - Age
 // Your code goes here
-
+const age = prompt(`How old are you?`)
+alert(`Your age is ${age}`)
 
 // Step 5 - Order confirmation
 // Your code goes here

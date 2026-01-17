@@ -70,3 +70,11 @@ alert(`Your age is ${age}`)
 
 // Step 5 - Order confirmation
 // Your code goes here
+const order = prompt(`Your order is ${foodName}, && ${subtypeName}. 
+  Confirm order? Yes/No`)
+
+if (order.toLowerCase() === "yes") {
+  alert(`Thank you ${name}! Your ${foodName} is now ready.`)
+} else {
+  alert(`That´s ok. Welcome back!`)
+}
